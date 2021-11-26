@@ -14,7 +14,7 @@ header {
 .header__logo img {
   height: 100px; }
 
-.header__titulo h1 {
+.header__titulo h1, .header__titulo h2 {
   padding: 5px 0px 10px 0px;
   color: #5a504e;
   font-size: 20px;
@@ -52,6 +52,12 @@ footer {
   .circulos img:hover {
     height: 450px; }
 
+.proyectos .proyectos__titulo {
+  background-color: #F3DAA5;
+  text-align: center; }
+  .proyectos .proyectos__titulo h1 {
+    text-transform: uppercase; }
+
 .proyectos .proyectos__carousel img {
   border: 3px solid #bdb4b3; }
 
@@ -69,6 +75,11 @@ footer {
 
 .servicios, .serviciosB {
   background-color: #F3DAA5; }
+  .servicios .servicios__titulo, .serviciosB .servicios__titulo {
+    background-color: #F3DAA5;
+    text-align: center; }
+    .servicios .servicios__titulo h1, .serviciosB .servicios__titulo h1 {
+      text-transform: uppercase; }
   .servicios .servicios__banner, .serviciosB .servicios__banner {
     background-color: white;
     border: 5px solid #ce5f2e; }
@@ -94,6 +105,11 @@ footer {
 
 .presentacion {
   background-color: #F3DAA5; }
+  .presentacion .presentacion__titulo {
+    background-color: #F3DAA5;
+    text-align: center; }
+    .presentacion .presentacion__titulo h1 {
+      text-transform: uppercase; }
   .presentacion .presentacion__parrafo {
     text-align: center;
     width: 500px; }
@@ -116,7 +132,7 @@ footer {
 .contacto .contacto__info {
   background-color: #ce5f2e;
   padding-top: 40px; }
-  .contacto .contacto__info h3, .contacto .contacto__info p {
+  .contacto .contacto__info h1, .contacto .contacto__info p {
     color: white;
     text-align: center; }
 

@@ -19,6 +19,13 @@
 }
 
 .proyectos{
+    .proyectos__titulo{
+        background-color: $color_fondo_claro;
+        text-align: center;
+        h1{
+            text-transform: uppercase;
+        }
+    }
     .proyectos__carousel img{
         border: 3px solid $color_fondo_gris;
     }
@@ -39,6 +46,13 @@
 
 .servicios{
     background-color: $color_fondo_claro;
+    .servicios__titulo{
+        background-color: $color_fondo_claro;
+        text-align: center;
+            h1{
+                text-transform: uppercase;
+            }
+        }
     .servicios__banner{
         background-color: $color_tipografia_blanco;
         border: 5px solid $color_fondo_oscuro;
@@ -75,6 +89,13 @@
 
 .presentacion{
     background-color: $color_fondo_claro;
+    .presentacion__titulo{
+        background-color: $color_fondo_claro;
+        text-align: center;
+            h1{
+                text-transform: uppercase;
+            }
+        }
     .presentacion__parrafo{
         text-align: center;
         width: 500px;
@@ -108,7 +129,7 @@
     .contacto__info{
         background-color: $color_fondo_oscuro;
         padding-top: 40px;
-        h3, p{
+        h1, p{
             color: $color_tipografia_blanco;
             text-align: center;
         }
