@@ -81,22 +81,24 @@ footer {
     .servicios .servicios__titulo h1, .serviciosB .servicios__titulo h1 {
       text-transform: uppercase; }
   .servicios .servicios__banner, .serviciosB .servicios__banner {
-    background-color: white;
+    background-color: #ce5f2e;
     border: 5px solid #ce5f2e; }
     .servicios .servicios__banner h3, .serviciosB .servicios__banner h3 {
       text-align: center;
       color: white;
       background-color: #E18942;
       margin-bottom: 20px; }
-    .servicios .servicios__banner p, .serviciosB .servicios__banner p {
+    .servicios .servicios__banner p, .serviciosB .servicios__banner p, .servicios .servicios__banner ol li, .serviciosB .servicios__banner ol li {
       text-align: justify;
       color: white; }
     .servicios .servicios__banner .servicios__banner--tipografia, .serviciosB .servicios__banner .servicios__banner--tipografia {
       background-color: #ce5f2e; }
     .servicios .servicios__banner .servicios__banner--imagen img, .serviciosB .servicios__banner .servicios__banner--imagen img {
-      height: 180px; }
+      height: 250px;
+      overflow: hidden; }
 
 .serviciosB .servicios__banner {
+  background-color: #E18942;
   border: 5px solid #E18942; }
   .serviciosB .servicios__banner h3 {
     background-color: #ce5f2e; }
@@ -150,5 +152,4 @@ footer {
   .footer__logo img {
     display: none; }
   .contacto__info {
-    display: none; }
-}
+    display: none; } }
