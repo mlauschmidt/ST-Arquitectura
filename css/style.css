@@ -61,17 +61,13 @@ footer {
 .proyectos .proyectos__carousel img {
   border: 3px solid #bdb4b3; }
 
-.proyectos .proyectos__carousel--titulo, .proyectos .proyectos__carousel--parrafo {
+.proyectos .proyectos__carousel--titulo {
   font-size: 36px;
   background-color: #ce5f2e;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
-
-.proyectos .proyectos__carousel--parrafo {
-  font-size: 18px;
-  background-color: #bdb4b3; }
 
 .servicios, .serviciosB {
   background-color: #F3DAA5; }
