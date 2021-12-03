@@ -1,3 +1,5 @@
 node_modules/
 scss/
 .vscode
+package-lock.json
+package.json
