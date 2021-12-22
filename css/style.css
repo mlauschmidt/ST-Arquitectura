@@ -8,37 +8,34 @@ body {
   padding: 0px;
   margin: 0px; }
 
-header {
+.header {
   background-color: #F3DAA5; }
+  .header .header__logo img {
+    height: 100px; }
+  .header .header__titulo h1, .header .header__titulo h2 {
+    padding: 5px 0px 10px 0px;
+    color: #5a504e;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center; }
+  .header .header__nav {
+    background-color: #E18942; }
 
-.header__logo img {
-  height: 100px; }
-
-.header__titulo h1, .header__titulo h2 {
-  padding: 5px 0px 10px 0px;
-  color: #5a504e;
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center; }
-
-.header__nav {
-  background-color: #E18942; }
-
-footer {
+.footer {
   background-color: #E18942;
   padding-top: 20px;
   line-height: 20px; }
-
-.footer__logo {
-  padding-bottom: 20px; }
-  .footer__logo img {
-    height: 100px; }
-
-.footer__redes--tipografia {
-  color: white; }
-
-.footer__info--tipografia {
-  color: white; }
+  .footer .footer__logo {
+    padding-bottom: 20px; }
+    .footer .footer__logo img {
+      height: 100px; }
+  .footer .footer__redes--tipografia {
+    color: white; }
+    .footer .footer__redes--tipografia a {
+      text-decoration: none;
+      color: white; }
+  .footer .footer__info--tipografia {
+    color: white; }
 
 .carousel {
   z-index: -10; }
@@ -133,6 +130,9 @@ footer {
   .contacto .contacto__info h1, .contacto .contacto__info p {
     color: white;
     text-align: center; }
+  .contacto .contacto__info a {
+    text-decoration: none;
+    color: white; }
 
 .contacto .contacto__formulario {
   background-color: #F3DAA5;
